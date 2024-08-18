@@ -66,10 +66,11 @@ pip install -r requirements.txt
   "output_excel_path": "./query_answers.xlsx",
   "gpt_model": "gpt-4"
 }
-'''
--*Replace your-api-key-here with your actual OpenAI API key and adjust other paths as needed.*
+```
 
-6.*Usage:*
+*Replace your-api-key-here with your actual OpenAI API key and adjust other paths as needed.*
+
+6. **Usage:**
 
 -Place your PDF documents in the documents folder (or the path specified in your config).
 
@@ -82,6 +83,19 @@ pip install -r requirements.txt
 -The script will process your queries using RAG and save the results in an Excel file.
 
 ## Project Structure
+
+DocQA-System/
+│
+├── main.py
+│
+└── utils/
+    ├── config.py
+    ├── document_processing.py
+    ├── embedding.py
+    ├── search.py
+    ├── qa.py
+    ├── excel.py
+    └── ocr.py
 
 -main.py: The main script that orchestrates the entire RAG process.
 -utils/:
