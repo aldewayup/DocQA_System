@@ -8,9 +8,9 @@ DocQA is an advanced AI-driven document-based question answering system that eff
 
 - AI-powered information extraction from text and images in PDF documents
 - Retrieval-Augmented Generation (RAG) with optimizations:
- - Hybrid search mechanism combining dense and sparse retrieval methods
- - Document re-ranking using GPT models for enhanced relevance
- - Chunk-based processing for efficient handling of large documents
+  - Hybrid search mechanism combining dense and sparse retrieval methods
+  - Document re-ranking using GPT models for enhanced relevance
+  - Chunk-based processing for efficient handling of large documents
 - Precise source attribution with document name and page number for each answer
 - Efficient handling of large document sets through parallelization
 - Semantic embedding and vector store creation for quick information retrieval
