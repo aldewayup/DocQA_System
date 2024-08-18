@@ -32,10 +32,10 @@ DocQA is an advanced AI-driven document-based question answering system that eff
 
 1. **Clone this repository:**
 
-'''
+```
 git clone https://github.com/yourusername/docqa-system.git
 cd docqa-system
-'''
+```
 
 2. **Create and activate a virtual environment:**
 
@@ -88,7 +88,6 @@ pip install -r requirements.txt
 
 `
 python main.py
-
 `
 
 - Follow the prompts to enter your queries. 
@@ -96,6 +95,7 @@ python main.py
 - The script will process your queries using RAG and save the results in an Excel file.
 
 ## Project Structure
+
 
 ```
 DocQA-System/
@@ -120,12 +120,13 @@ DocQA-System/
     ├── excel.py
     └── ocr.py
 ```
+
 - main.py: The main script that orchestrates the entire RAG process.
 - utils/:
- - config.py: Functions for loading configuration and setting up Tesseract.
- - document_processing.py: Functions for processing PDF documents and extracting text.
- - embedding.py: Functions for creating the vector store for efficient retrieval.
- - search.py: Functions for performing hybrid search and re-ranking results.
- - qa.py: Functions for generating answers using RAG and finding relevant page numbers.
- - excel.py: Functions for saving results to an Excel file.
- - ocr.py: Functions for OCR processing of images in PDFs.
+  - config.py: Functions for loading configuration and setting up Tesseract.
+  - document_processing.py: Functions for processing PDF documents and extracting text.
+  - embedding.py: Functions for creating the vector store for efficient retrieval.
+  - search.py: Functions for performing hybrid search and re-ranking results.
+  - qa.py: Functions for generating answers using RAG and finding relevant page numbers.
+  - excel.py: Functions for saving results to an Excel file.
+  - ocr.py: Functions for OCR processing of images in PDFs.
